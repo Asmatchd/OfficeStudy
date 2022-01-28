@@ -10,13 +10,14 @@ export const ScreenNavigator = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Basics"
-          component={a.Basics}
-          options={{headerShown: false, gestureEnabled: false}}
-        />
-        <Stack.Screen
           name="SignUp"
           component={a.SignUp}
+          options={{headerShown: false, gestureEnabled: false}}
+        />
+
+        <Stack.Screen
+          name="Basics"
+          component={a.Basics}
           options={{headerShown: false, gestureEnabled: false}}
         />
       </Stack.Navigator>
